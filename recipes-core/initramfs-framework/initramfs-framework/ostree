@@ -1,0 +1,11 @@
+#!/bin/sh
+
+ostree_enabled() {
+    return 0
+}
+
+ostree_run () {
+    msg "OSTree initramfs init module being run..."
+    sleep 10
+}
+
