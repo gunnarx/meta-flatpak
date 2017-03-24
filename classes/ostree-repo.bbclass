@@ -28,6 +28,7 @@ do_ostreeimage () {
 
 do_ostreeimage[depends] += " \
     binutils-native:do_populate_sysroot \
+    coreutils-native:do_populate_sysroot \
     ostree-native:do_populate_sysroot \
     virtual/kernel:do_deploy \
     initramfs-framework:do_populate_sysroot \
